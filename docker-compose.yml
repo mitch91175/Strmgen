@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  strmgen:
+    build: .
+    container_name: strmgen
+    volumes:
+      - /mnt/user/appdata/strmgen:/app
+      - /mnt/user/data/media/streams:/output
+    working_dir: /app

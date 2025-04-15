@@ -1,0 +1,31 @@
+{
+  "api_base": "",
+  "token_url": "/api/accounts/token/",
+  "username": "",
+  "password": "",
+  "stream_base_url": "/proxy/ts/stream/",
+  "clean_output_dir": false,
+  "output_root": "/app/output/",
+  "channel_groups": [
+    "24/7*",
+    "Series-*",
+    "Movies-*"
+  ],
+  "remove_strings": "",
+  "access": "",
+  "refresh": "",
+  "skip_stream_check": false,
+  "tmdb_api_key": "",
+  "tmdb_language": "en-US",
+  "tmdb_image_size": "original",
+  "tmdb_create_not_found": false,
+  "minimum_tmdb_rating": 5,
+  "minimum_tmdb_votes": 500,
+  "minimum_tmdb_popularity": 10.0,
+  "write_nfo": true,
+  "write_nfo_only_if_not_exists": true,
+  "opensubtitles_app_name": "",
+  "opensubtitles_api_key": "",
+  "opensubtitles_username": "",
+  "opensubtitles_password": ""
+}
